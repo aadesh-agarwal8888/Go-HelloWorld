@@ -17,5 +17,5 @@ func main() {
 func SayHello(res http.ResponseWriter, req *http.Request) {
 	log.Println("Saying Hello")
 
-	res.Write([]byte("Heelo World"))
+	res.Write([]byte("Hello World"))
 }
